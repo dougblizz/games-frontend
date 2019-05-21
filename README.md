@@ -1,14 +1,24 @@
-# Getting Started
+games-frontend
+=================
 
-### Reference Documentation
-For further reference, please consider the following sections:
+### Comments
+Se uso Spring Boot para manejar datos JSON provenientes de una URL del proyecto games-backend y mostrarlo en una vista, está seria la parte complementaria del proyecto "games", es una aplicacion básica standalone que usa RestTemplate para obtener los datos por medio del backend y mostrarlo en una vista corriente con ayuda de thymeleaf.
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
+### Games-backend URL
 
-### Guides
-The following guides illustrate how to use some features concretely:
+https://github.com/dougblizz/games-backend.git
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 
+### Build commands:
+```
+mvn clean package
+```
+
+### Deployment:
+
+standalone
+
+### API Urls:
+```
+[GET] http://localhost:8081/console
+```
